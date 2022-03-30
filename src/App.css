@@ -1,0 +1,197 @@
+.cake {
+	width: 250px;
+	height: 250px;
+	margin: 20px 20px 20px 20px;
+}
+
+.carousel {
+	display: flex;
+	justify-content: center;
+}
+h1 {
+	text-align: center;
+}
+
+.jumbertron {
+	display: flex;
+	justify-content: center;
+}
+
+.like,
+.dislike {
+	border: none;
+	background-color: black;
+	color: white;
+	padding: 25px 60px 25px 60px;
+	width: 60px;
+	margin-left: 0;
+	margin-right: 0;
+	border-radius: 25px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.dislike:hover {
+	background-color: crimson;
+	border: 5px black solid;
+}
+.like:hover {
+	background-color: crimson;
+	border: 5px black solid;
+}
+
+.count-h1 {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+img {
+	border-radius: 25px;
+	justify-content: center;
+	border: 5px solid crimson;
+}
+
+.wrapper {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 30px;
+	background-color: black;
+}
+
+.flex-nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border: 2px solid white;
+}
+
+.flex-nav ul li {
+	flex-grow: 1;
+	border: 1px solid white;
+}
+
+.flex-nav ul li:hover {
+	background-color: crimson;
+}
+
+a {
+	color: white;
+	letter-spacing: 2px;
+	text-decoration: none;
+	padding: 20px 5px;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	transition: all 0.5s;
+}
+
+.flex-footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.flex-footer ul li {
+	flex-grow: 1;
+}
+
+p {
+	text-align: center;
+	color: white;
+}
+
+.cake-description {
+	text-align: center;
+	color: black;
+}
+
+/* h1 {
+	color: white;
+	margin: 0 0 20px 0;
+} */
+
+.count-container {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	background-color: crimson;
+	margin-bottom: 50px;
+}
+button {
+	width: 50px;
+	margin: 20px;
+	cursor: pointer;
+}
+
+.container {
+	max-width: 200px;
+	margin: 0 auto;
+	border: 3px solid black;
+}
+
+.form-container {
+	background-color: white;
+	height: 100px;
+	display: flex;
+	align-items: center;
+}
+.input-text {
+	text-align: right;
+	font-size: 50px;
+	color: black;
+	width: 100%;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.row {
+	display: flex;
+}
+
+.numbered-buttons {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+	width: 75%;
+}
+.equals {
+	width: 25%;
+	display: flex;
+}
+.equals > button {
+	background: crimson;
+	outline: none;
+	border: 1px solid white;
+	margin: 0;
+	width: 100%;
+	padding: 0;
+	color: white;
+}
+
+.numbered-buttons > button {
+	background: crimson;
+	outline: none;
+	border: 1px solid white;
+	margin: 0;
+	width: calc(100% / 3);
+	height: 30px;
+	padding: 0;
+	color: white;
+}
+
+.operations > button {
+	background: gray;
+	outline: none;
+	border: 1px solid white;
+	margin: 0;
+	width: 25%;
+	height: 30px;
+	padding: 0;
+	color: white;
+}
